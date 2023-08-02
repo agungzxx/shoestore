@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav_mobile {
+  @apply bg-white bg-opacity-60 px-5 py-4 absolute right-14 top-14 rounded-xl shadow-lg;
+}
+
+.navlist_window {
+  @apply px-0;
+}
+
+.navlist_mobile {
+  @apply mb-4;
+}
+
+.hamburger_ilang {
+  @apply scale-0 transition duration-1000 ease-in-out;
+}
+.hamburger_aktif {
+  @apply scale-100 transition duration-900 ease-in-out;
+}
+
+.close_aktif {
+  @apply scale-100 transition duration-900 ease-in-out;
+}
+.close_ilang {
+  @apply scale-0 transition duration-900 ease-in-out;
+}
